@@ -5,3 +5,7 @@ We help you keep track of the little and big changes you make to recipes. Find a
 ## About this project
 
 This project was generated during the CODEX hacakthon.
+
+## Setup
+
+We're keeping it simple for now. You just need [Jekyll](http://jekyllrb.com/) to run the prototype.
