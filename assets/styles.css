@@ -1,8 +1,11 @@
 body{
   padding-top: 5rem;
-  font-family: 'Rokkit', serif;
-  font-size: 16px;
-  background: #DFE1CC;
+  font-family: 'Rokkitt', serif;
+  font-size: 15px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Rokkitt', serif;
 }
 
 /*bootstrap overrides*/
@@ -16,18 +19,107 @@ body{
   letter-spacing: 1px;
 }
 
+/*buttons*/
+
+.btn{
+  border-radius: 0;
+  background: #CBCEC7;
+  text-transform: uppercase;
+}
+
+.btn-fork{
+  background-color: #D2721E;
+  color: #fff;
+}
 
 /*recipe*/
+
+.recipe h2, .recipe h3{
+  text-transform: uppercase;
+}
+
 .tools{
   float: right;
+  padding-top: 2rem;
+}
+
+.tools .btn-fork{
+  margin-right: 1rem;
 }
 
 .recipe header{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+.recipe header h1{
+  font-size: 4rem;
+  color: #D2721E;
 }
 
 .meta-details{
-  
+  display: table;
+  width: 100%;
+  margin: 2rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.meta-details li{
+  display: table-row;
+}
+
+.meta-label{
+  display: table-cell;
+  width: 25%;
+  font-family: 'Rokkitt', serif;
+  font-weight: 700;
+}
+
+.meta-value{
+  display: table-cell;
+  width: 75%;
+}
+
+.variations{
+  padding: 0;
+  list-style: none;
+}
+
+.variations li{
+  display: inline-block;
+  margin: 0 .5rem .5rem;
+  text-align: center;
+}
+
+.variation-count{
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  margin: auto;
+  line-height: 5rem;
+  border-radius: 50%;
+  background-color: #CBCEC7;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.variation-count.spicy{
+  background-color: #FF9D90;
+}
+
+.variation-count.regional{
+  background-color: #FFDB96;
+}
+
+.variation-count.vegetarian{
+  background-color: #D0F2BF;
+}
+
+.ingredients{
+  padding: 0;
+  list-style: none;
+}
+
+.steps{
+  padding-left: 1.5rem;
 }
