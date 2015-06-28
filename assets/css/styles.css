@@ -9,6 +9,10 @@ body{
   font-family: 'Rokkitt', serif;
 }
 
+header{
+  text-align: center;
+}
+
 h1,h2,h3,h4,h5,h6{
   font-family: 'Rokkitt', serif;
 }
@@ -52,6 +56,9 @@ figcaption{
 }
 
 .navbar-brand{
+  margin-left: 0 !important;
+  padding-left: 40px;
+  background: url('/assets/img/fork-logo-32.png') no-repeat left center;
   color: #D2721E !important;
   text-transform: none;
 }
@@ -81,10 +88,17 @@ figcaption{
 }
 
 .btn-fork{
-  background-color: #D2721E;
+  background: #D2721E url('/assets/img/fork-logo-32.png') no-repeat 4px center;
+  background-size: 1.5rem;
+  padding-left: 2rem;
   border-bottom: 2px solid #a55a18;
   box-shadow: 0 1px 0 #a55a18;
   color: #fff;
+}
+
+a.btn-fork:hover{
+  border-bottom: 2px solid #a55a18;
+  box-shadow: 0 1px 0 #a55a18;
 }
 
 /*search*/
@@ -244,6 +258,8 @@ figcaption{
   padding-left: 1.5rem;
 }
 
+/*thumbnails*/
+
 .thumb.rating{
   margin-top: -40px;
   text-align: right;
@@ -261,8 +277,12 @@ figcaption{
   opacity: .6;
 }
 
-.thumb.caption{
+.thumb.caption.home{
   font-size: 1.5em;
+}
+
+.thumb.caption{
+  font-size: 1em;
 }
 
 .fa-stack-1x{
@@ -270,7 +290,6 @@ figcaption{
   color: #594141;
   font-weight: bold;
 }
-
 
 /*recipe form*/
 
