@@ -1,15 +1,33 @@
 body{
+  padding-top: 5rem;
   font-family: 'Rokkit', serif;
+  font-size: 16px;
   background: #DFE1CC;
 }
 
 /*bootstrap overrides*/
+
 .navbar-inverse{
   background: #594141;
 }
 
 .navbar-brand{
   color: #D2721E !important;
-  text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+
+/*recipe*/
+.tools{
+  float: right;
+}
+
+.recipe header{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.meta-details{
+  
 }
