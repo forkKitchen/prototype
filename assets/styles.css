@@ -89,6 +89,7 @@ figcaption{
 }
 
 .recipe h2, .recipe h3{
+  margin-top: 0;
   text-transform: uppercase;
   color: #CBCEC7;
   letter-spacing: 1px;
@@ -236,6 +237,10 @@ figcaption{
 .recipe-item-add{
   color: green;
   font-size: 1.5rem !important;
+}
+
+.recipe-author{
+  line-height: 1.1;
 }
 
 /*footer*/

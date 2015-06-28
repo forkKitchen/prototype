@@ -10,12 +10,7 @@ title: "Recipes"
           <h1>Recipe title</h1>
         </div>
         <div class="col-md-6">
-          <div class="tools">
-            <button class="btn btn-fork" data-toggle="modal" data-target="#forkModal"><i class="fa fa-code-fork"></i> Fork!</button>
-            <button class="btn"><i class="fa fa-heart"></i> Favorite</button>
-            <button class="btn"><i class="fa fa-share"></i> Share</button>
-            <button class="btn"><i class="fa fa-download"></i> Export</button>
-          </div>
+          {% include tools.html %}
         </div>
       </div>
     </div>
@@ -28,7 +23,7 @@ title: "Recipes"
             <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=Mouthwatering%20food&w=800&h=400" class="img-responsive">
           </figure>
           <ul class="meta-details">
-            <li><span class="meta-label">Author</span> <span class="meta-value">Author</span></li>
+            <li><span class="meta-label">Contributor</span> <span class="meta-value"><a href="{{ site.baseurl }}/contributors">Contributor</a></span></li>
             <li><span class="meta-label">Cookbook</span> <span class="meta-value">Cookbook name</span></li>
             <li><span class="meta-label">Location</span> <span class="meta-value">Location</span></li>
             <li><span class="meta-label">Variation</span> <span class="meta-value">Variation type</span></li>
