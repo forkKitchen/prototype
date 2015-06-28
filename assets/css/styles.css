@@ -164,10 +164,14 @@ figcaption{
   color: #D2721E;
 }
 
+.recipe .forked-recipe{
+  margin-top: 1rem;
+}
+
 .meta-details{
   display: table;
   width: 100%;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   padding: 0;
   list-style: none;
 }
@@ -298,6 +302,10 @@ figcaption{
   margin-top: 2rem;
   padding: 3rem 0;
   background: #CBCEC7;
+}
+
+.site-footer hr{
+  border-top: 1px solid #999e91;
 }
 
 .team li{
