@@ -1,0 +1,107 @@
+---
+layout: base
+title: "Forking Recipe"
+---
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <div class="alert alert-info forked-recipe">
+          <p><i class="fa fa-code-fork"></i> You are forking <a href="#" class="alert-link">Recipe 1</a> by Author </p>
+      </div>
+      <h1>Edit your recipe</h1>
+      <p>Edit your version of the recipe or (or come back later once you have all of the details).</p>
+      <form>
+        <div class="form-group">
+          <label>Author</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Cookbook</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Location</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label class="">Select the variation</label>
+          <select class="form-control">
+            <option>Regional Variation</option>
+            <option>Spiciness</option>
+            <option>Equipment</option>
+            <option>Vegetarian</option>
+            <option>Low fat</option>
+            <option>Family Variation</option>
+            <option>Substitution</option>
+            <option>Expertise Level</option>
+            <option>Religious (Halal, Kosher)</option>
+            <option>Diet</option>
+            <option>Author (Celebrity)</option>
+            <option>Cultural Heritage</option>
+            <option>Economic Status/Cost</option>
+            <option>Aesthetics</option>
+            <option>Seasonal</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Description</label>
+          <textarea class="form-control" rows="7">Bacon ipsum dolor amet cupim tenderloin leberkas tongue meatloaf. Capicola tri-tip jerky prosciutto rump, spare ribs sausage corned beef shankle. Turkey corned beef rump strip steak brisket. Andouille sirloin venison pig, kevin picanha salami short loin brisket meatball spare ribs tongue drumstick kielbasa. Short ribs beef ribs shoulder pork chop ground round. Corned beef sausage kielbasa pork loin shankle beef ball tip tongue hamburger pancetta meatball short loin fatback brisket.</textarea>
+        </div>
+        <fieldset class="form-inline">
+          <legend>Ingredients</legend>
+          <div class="form-group ingredient-group">
+            <label class="sr-only">Quantity</label>
+            <input type="text" class="form-control" value="2 cups">
+            <label class="sr-only">Type</label>
+            <input type="text" class="form-control" value="Ingredient">
+            <i class="fa fa-minus-circle recipe-item-delete"></i>
+          </div>
+          <div class="form-group ingredient-group">
+            <label class="sr-only">Quantity</label>
+            <input type="text" class="form-control" value="2 cups">
+            <label class="sr-only">Type</label>
+            <input type="text" class="form-control" value="Ingredient">
+            <i class="fa fa-minus-circle recipe-item-delete"></i>
+          </div>
+          <div class="form-group ingredient-group">
+            <label class="sr-only">Quantity</label>
+            <input type="text" class="form-control" value="2 cups">
+            <label class="sr-only">Type</label>
+            <input type="text" class="form-control" value="Ingredient">
+            <i class="fa fa-minus-circle recipe-item-delete"></i>
+            <i class="fa fa-plus-circle recipe-item-add"></i>
+          </div>
+        </fieldset>
+        <fieldset class="form-horizonal">
+          <legend>Steps</legend>
+          <div class="form-group">
+            <label>Step 1</label>
+            <textarea class="form-control" rows="2">Do this</textarea>
+            <div class="pull-right recipe-item-controls">
+              <i class="fa fa-minus-circle recipe-item-delete"></i>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Step 2</label>
+            <textarea class="form-control" rows="2">Do this</textarea>
+            <div class="pull-right recipe-item-controls">
+              <i class="fa fa-minus-circle recipe-item-delete"></i>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Step 3</label>
+            <textarea class="form-control" rows="2">Do this</textarea>
+            <div class="pull-right recipe-item-controls">
+              <i class="fa fa-minus-circle recipe-item-delete"></i>
+              <i class="fa fa-plus-circle recipe-item-add"></i>
+            </div>
+          </div>
+        </fieldset>
+        <hr>
+        <div class="form-group">
+          <a href="../forked" class="btn btn-lg btn-fork pull-right">Save your recipe</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
