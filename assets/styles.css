@@ -240,6 +240,33 @@ figcaption{
   padding-left: 1.5rem;
 }
 
+.thumb.rating{
+  margin-top: -40px;
+  text-align: right;
+}
+
+.thumb.caption{
+  float: right;
+}
+
+.thumb.fa{
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  padding: 5px;
+  color: #ffffff;
+  opacity: .6;
+}
+
+.thumb.caption{
+  font-size: 1.5em;
+}
+
+.fa-stack-1x{
+  font-size: 1em;
+  color: #594141;
+  font-weight: bold;
+}
+
 
 /*recipe form*/
 
