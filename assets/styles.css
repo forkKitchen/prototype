@@ -272,6 +272,10 @@ figcaption{
   background: #CBCEC7;
 }
 
+.site-footer hr{
+  border-top: 1px solid #999e91;
+}
+
 .team li{
   display: inline;
 }
