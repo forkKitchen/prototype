@@ -7,13 +7,24 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Fork.Kitchen</a>
+          <a class="navbar-brand" href="{{ site.baseurl }}/">Fork.Kitchen</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-              <li><a href="./">Search</a></li>
-              <li><a href="../navbar-static-top/">Sign up</a></li>
-              <li><a href="../navbar-fixed-top/">Login</a></li>
+              <li>
+                <form class="form-inline search-form">
+                  <div class="form-group">
+                   <label class="sr-only" for="search">Search</label>
+                   <div class="input-group">
+                     <input type="text" class="form-control" id="exampleInputAmount" placeholder="Search for recipes">
+                     <div class="input-group-addon"><i class="fa fa-search"></i>
+</div>
+                   </div>
+                 </div>
+                </form>
+              </li>
+              <li><a href="#">Sign up</a></li>
+              <li><a href="#">Login</a></li>
             </ul>
         </div><!--/.nav-collapse -->
       </div>
