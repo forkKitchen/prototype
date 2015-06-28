@@ -210,6 +210,13 @@ figcaption{
   padding-left: 1.5rem;
 }
 
+.thumb-rating{
+  text-align: right;
+}
+
+.thumb-caption{
+  float: right;
+}
 
 /*recipe form*/
 
