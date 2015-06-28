@@ -1,5 +1,5 @@
 <div class="tools">
-  <button class="btn btn-fork" data-toggle="modal" data-target="#forkModal"><i class="fa fa-cutlery"></i> Fork!</button>
+  {% if page.show_fork == True %}<button class="btn btn-fork" data-toggle="modal" data-target="#forkModal"> Fork!</button>{% endif %}
   <button class="btn"><i class="fa fa-heart"></i> Favorite</button>
   <button class="btn"><i class="fa fa-share"></i> Share</button>
   <button class="btn"><i class="fa fa-download"></i> Export</button>
