@@ -1,0 +1,100 @@
+---
+layout: base
+title: "Organization"
+---
+<article class="recipe">
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Organization title</h1>
+        </div>
+        <div class="col-md-6">
+          <div class="tools">
+            <button class="btn btn-fork" data-toggle="modal" data-target="#forkModal">Fork it!</button>
+            <button class="btn">Add to Favorites</button>
+            <button class="btn">Share</button>
+            <button class="btn">Export</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <div class="row">
+      <section class="meta">
+        <div class="col-md-5">
+          <figure>
+            <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=Mouthwatering%20food&w=350&h=250" class="img-responsive">
+          </figure>
+          <ul class="meta-details">
+            <li><span class="meta-label"><strong>Publisher</strong></span> <span class="meta-value">Publisher</span></li>
+            <li><span class="meta-label"><strong>Location</strong></span> <span class="meta-value">Location</span></li>
+            <li><span class="meta-label"><strong>Year</strong></span> <span class="meta-value">Year</span></li>
+          </ul>
+        </div>
+      </section>
+      <section class="recipe">
+      	<h2>Recipes</h2>
+          <div class="col-md-3">
+        	<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=Mouthwatering%20food&w=350&h=250" class="img-responsive">
+        	<p>name of recipe, author name</p>
+        </div>
+        <div class="col-md-3">
+        	<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=Mouthwatering%20food&w=350&h=250" class="img-responsive">
+        	<p>name of recipe, author name</p>
+        </div>
+        <div class="col-md-3">
+        	<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=Mouthwatering%20food&w=350&h=250" class="img-responsive">
+        	<p>name of recipe, author name</p>
+        </div>
+        <div class="col-md-3">
+        	<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=Mouthwatering%20food&w=350&h=250" class="img-responsive">
+        	<p>name of recipe, author name</p>
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+<div class="modal fade" id="forkModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Let's fork this recipe</h4>
+      </div>
+      <div class="modal-body">
+        <p>Pick a name for your variation and selection a reason why you're making it.</p>
+        <form>
+          <div class="form-group">
+            <label class="sr-only">Recipe name</label>
+            <input type="text" value="Even better recipe" placeholder="Name your recipe" class="form-control">
+          </div>
+          <div class="form-group">
+            <label class="sr-only">Select the variation</label>
+            <select class="form-control">
+              <option>Regional Variation</option>
+              <option>Spiciness</option>
+              <option>Equipment</option>
+              <option>Vegetarian</option>
+              <option>Low fat</option>
+              <option>Family Variation</option>
+              <option>Substitution</option>
+              <option>Expertise Level</option>
+              <option>Religious (Halal, Kosher)</option>
+              <option>Diet</option>
+              <option>Author (Celebrity)</option>
+              <option>Cultural Heritage</option>
+              <option>Economic Status/Cost</option>
+              <option>Aesthetics</option>
+              <option>Seasonal</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Create</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
