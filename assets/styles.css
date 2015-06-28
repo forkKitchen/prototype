@@ -1,3 +1,5 @@
+/*http://www.colourlovers.com/palette/3806760/g%C3%B6kotta*/
+
 html,body{
   font-size: 15px;
 }
@@ -9,6 +11,23 @@ body{
 
 h1,h2,h3,h4,h5,h6{
   font-family: 'Rokkitt', serif;
+}
+
+h2, h3{
+  text-transform: uppercase;
+  color: #CBCEC7;
+  letter-spacing: 1px;
+}
+
+a{
+  color: #D2721E;
+}
+
+a:hover{
+  color: #594141;
+  text-decoration: none;
+  border-bottom: 1px solid #594141;
+  box-shadow: inset 0 -2px 0 #594141;
 }
 
 figcaption{
@@ -44,6 +63,10 @@ figcaption{
 
 .modal-dialog{
   max-width: 400px;
+}
+
+.thumb-caption p{
+  line-height: 1.1;
 }
 
 /*buttons*/
@@ -82,17 +105,23 @@ figcaption{
   color: #fff;
 }
 
+/*receipes list*/
+.recipes img{
+  transition: all .2s ease;
+}
+
+.recipes img:hover{
+  -webkit-filter: opacity(.5);
+}
+
 /*recipe*/
 
 .recipe{
   font-size: 1.2rem;
 }
 
-.recipe h2, .recipe h3{
+.recipe h2:first-of-type{
   margin-top: 0;
-  text-transform: uppercase;
-  color: #CBCEC7;
-  letter-spacing: 1px;
 }
 
 .recipe h2{
@@ -241,4 +270,16 @@ figcaption{
   margin-top: 2rem;
   padding: 3rem 0;
   background: #CBCEC7;
+}
+
+.team li{
+  display: inline;
+}
+
+.team li:after{
+  content: ", ";
+}
+
+.team li:last-of-type:after{
+  content: "";
 }
