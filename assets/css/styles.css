@@ -9,10 +9,6 @@ body{
   font-family: 'Rokkitt', serif;
 }
 
-header{
-  text-align: center;
-}
-
 h1,h2,h3,h4,h5,h6{
   font-family: 'Rokkitt', serif;
 }
@@ -37,6 +33,10 @@ a:hover{
 figcaption{
   font-size: .8rem;
   font-style: italic;
+}
+
+.container.home{
+  text-align: center;
 }
 
 /*bootstrap overrides*/
