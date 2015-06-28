@@ -1,6 +1,7 @@
 ---
 layout: base
 title: "Cookbook"
+show_fork: false
 ---
 <article class="recipe">
   <header>
@@ -10,11 +11,7 @@ title: "Cookbook"
           <h1>Cookbook title</h1>
         </div>
         <div class="col-md-6">
-          <div class="tools">
-            <button class="btn">Add to Favorites</button>
-            <button class="btn">Share</button>
-            <button class="btn">Export</button>
-          </div>
+          {% include tools.html %}
         </div>
       </div>
     </div>
