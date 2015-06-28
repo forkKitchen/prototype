@@ -1,0 +1,105 @@
+---
+layout: base
+title: "Recipes"
+---
+<article class="recipe">
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Recipe title</h1>
+        </div>
+        <div class="col-md-6">
+          <div class="tools">
+            <button class="btn btn-fork" data-toggle="modal" data-target="#forkModal"><i class="fa fa-code-fork"></i> Fork!</button>
+            <button class="btn"><i class="fa fa-heart"></i> Favorite</button>
+            <button class="btn"><i class="fa fa-share"></i> Share</button>
+            <button class="btn"><i class="fa fa-download"></i> Export</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <div class="row">
+      <section class="meta">
+        <div class="col-md-5">
+          <figure>
+            <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=Mouthwatering%20food&w=800&h=400" class="img-responsive">
+          </figure>
+          <ul class="meta-details">
+            <li><span class="meta-label">Author</span> <span class="meta-value">Author</span></li>
+            <li><span class="meta-label">Cookbook</span> <span class="meta-value">Cookbook name</span></li>
+            <li><span class="meta-label">Location</span> <span class="meta-value">Location</span></li>
+            <li><span class="meta-label">Variation</span> <span class="meta-value">Variation type</span></li>
+          </ul>
+          <h3>Explore variations</h3>
+          <ul class="variations">
+            <li><span class="variation-count spicy">2</span> Spicy</li>
+            <li><span class="variation-count regional">4</span> Regional</li>
+            <li><span class="variation-count vegetarian">1</span> Vegetarian</li>
+          </ul>
+        </div>
+      </section>
+      <section class="recipe">
+        <div class="col-md-7">
+          <p class="description">Bacon ipsum dolor amet cupim tenderloin leberkas tongue meatloaf. Capicola tri-tip jerky prosciutto rump, spare ribs sausage corned beef shankle. Turkey corned beef rump strip steak brisket. Andouille sirloin venison pig, kevin picanha salami short loin brisket meatball spare ribs tongue drumstick kielbasa. Short ribs beef ribs shoulder pork chop ground round. Corned beef sausage kielbasa pork loin shankle beef ball tip tongue hamburger pancetta meatball short loin fatback brisket.</p>
+          <h2>Ingredients</h2>
+          <ol class="ingredients">
+            <li class="ingredient"><span class="value">2 cups</span> <span class="type">Ingredient</span></li>
+            <li class="ingredient"><span class="value">2 cups</span> <span class="type">Ingredient</span></li>
+            <li class="ingredient"><span class="value">2 cups</span> <span class="type">Ingredient</span></li>
+          </ol>
+          <h2>Steps</h2>
+          <ol class="steps">
+            <li class="step">Do this then that</li>
+            <li class="step">Do this then that</li>
+            <li class="step">Do this then that</li>
+          </ol>
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+<div class="modal fade" id="forkModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Let's fork this recipe</h4>
+      </div>
+      <div class="modal-body">
+        <p>Pick a name for your variation and selection a reason why you're making it.</p>
+        <form>
+          <div class="form-group">
+            <label class="sr-only">Recipe name</label>
+            <input type="text" value="Even better recipe" placeholder="Name your recipe" class="form-control">
+          </div>
+          <div class="form-group">
+            <label class="sr-only">Select the variation</label>
+            <select class="form-control">
+              <option>Regional Variation</option>
+              <option>Spiciness</option>
+              <option>Equipment</option>
+              <option>Vegetarian</option>
+              <option>Low fat</option>
+              <option>Family Variation</option>
+              <option>Substitution</option>
+              <option>Expertise Level</option>
+              <option>Religious (Halal, Kosher)</option>
+              <option>Diet</option>
+              <option>Author (Celebrity)</option>
+              <option>Cultural Heritage</option>
+              <option>Economic Status/Cost</option>
+              <option>Aesthetics</option>
+              <option>Seasonal</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary btn-fork">Create</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

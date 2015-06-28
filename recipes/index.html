@@ -7,14 +7,14 @@ title: "Recipes"
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h1>Recipe title</h1>
+          <h1>Grannie&rsquo;s Ribs</h1>
         </div>
         <div class="col-md-6">
           <div class="tools">
-            <button class="btn btn-fork" data-toggle="modal" data-target="#forkModal">Fork it!</button>
-            <button class="btn">Add to Favorites</button>
-            <button class="btn">Share</button>
-            <button class="btn">Export</button>
+            <button class="btn btn-fork" data-toggle="modal" data-target="#forkModal"><i class="fa fa-code-fork"></i> Fork!</button>
+            <button class="btn"><i class="fa fa-heart"></i> Favorite</button>
+            <button class="btn"><i class="fa fa-share"></i> Share</button>
+            <button class="btn"><i class="fa fa-download"></i> Export</button>
           </div>
         </div>
       </div>
@@ -25,13 +25,14 @@ title: "Recipes"
       <section class="meta">
         <div class="col-md-5">
           <figure>
-            <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=Mouthwatering%20food&w=350&h=250" class="img-responsive">
+            <img src="{{ site.baseurl }}/assets/img/ribs.jpg" class="img-responsive">
+            <figcaption>https://www.flickr.com/photos/galant/2743643789</figcaption>
           </figure>
           <ul class="meta-details">
             <li><span class="meta-label">Author</span> <span class="meta-value">Author</span></li>
-            <li><span class="meta-label">Cookbook</span> <span class="meta-value">Cookbook name</span></li>
-            <li><span class="meta-label">Location</span> <span class="meta-value">Location</span></li>
-            <li><span class="meta-label">Variation</span> <span class="meta-value">Variation type</span></li>
+            <li><span class="meta-label">Cookbook</span> <span class="meta-value cookbook">Ladies Auxilary Cookbook</span></li>
+            <li><span class="meta-label">Location</span> <span class="meta-value">TBD <a href="#"><i class="fa fa-map-marker"></i></a></span></li>
+            <li><span class="meta-label">Variation</span> <span class="meta-value">Family Variation</span></li>
           </ul>
           <h3>Explore variations</h3>
           <ul class="variations">
@@ -46,9 +47,11 @@ title: "Recipes"
           <p class="description">Bacon ipsum dolor amet cupim tenderloin leberkas tongue meatloaf. Capicola tri-tip jerky prosciutto rump, spare ribs sausage corned beef shankle. Turkey corned beef rump strip steak brisket. Andouille sirloin venison pig, kevin picanha salami short loin brisket meatball spare ribs tongue drumstick kielbasa. Short ribs beef ribs shoulder pork chop ground round. Corned beef sausage kielbasa pork loin shankle beef ball tip tongue hamburger pancetta meatball short loin fatback brisket.</p>
           <h2>Ingredients</h2>
           <ol class="ingredients">
-            <li class="ingredient"><span class="value">2 cups</span> <span class="type">Ingredient</span></li>
-            <li class="ingredient"><span class="value">2 cups</span> <span class="type">Ingredient</span></li>
-            <li class="ingredient"><span class="value">2 cups</span> <span class="type">Ingredient</span></li>
+            <li class="ingredient"><span class="value">4 racks</span> <span class="type">pork spare ribs</span></li>
+            <li class="ingredient"><span class="value">&frac14; cup</span> <span class="type">ground black pepper</span></li>
+            <li class="ingredient"><span class="value">&frac12; cup</span> <span class="type">paprika</span></li>
+            <li class="ingredient"><span class="value">1 tbsp</span> <span class="type">cayenne pepper</span></li>
+            <li class="ingredient"><span class="value">1 tsp</span> <span class="type">MSG</span></li>
           </ol>
           <h2>Steps</h2>
           <ol class="steps">
@@ -62,7 +65,7 @@ title: "Recipes"
   </div>
 </article>
 <div class="modal fade" id="forkModal">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-sm">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -98,7 +101,7 @@ title: "Recipes"
         </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Create</button>
+        <a href="forking/" class="btn btn-primary btn-fork">Create</a>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
